@@ -15,7 +15,7 @@ Claude Code (Orchestrator) ─┬─ Codex CLI (Deep Reasoning)
 既存プロジェクトのルートで実行:
 
 ```bash
-git clone --depth 1 https://github.com/DeL-TaiseiOzaki/claude-code-orchestra.git .starter &&
+git clone --depth 1 https://github.com/S-Akinori/my-claude-code-orchestra.git .starter &&
 Copy-Item -Recurse -Force .starter\.claude, .starter\.codex, .starter\.gemini -Destination . &&
 Copy-Item -Force .starter\CLAUDE.md -Destination . &&
 Remove-Item -Recurse -Force .starter &&
